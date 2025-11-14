@@ -13,7 +13,7 @@ sys.path.insert(0, str(project_root))
 
 load_dotenv(project_root / '.env')
 
-from notify import NotificationKit
+from utils.notify import NotificationKit
 
 
 @pytest.fixture
